@@ -1,0 +1,40 @@
+.flex-container,
+body,
+html {
+
+    height: 100%;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    font-size: 15px;
+}
+
+#leftButtons {
+    padding: 2px;
+    padding-top: 5px;
+    flex: 1
+}
+
+#leaflet {
+    flex: 20
+}
+
+#codeEditor {
+    padding: 2px;
+    padding-top: 5px;
+    flex: 4
+}
+#codeEditor textarea{
+    height: 30%;
+    width: 97%;
+}
+
+body>.flex-container>div:nth-child(even) {
+    background: #23a;
+}
+
+body>.flex-container>div:nth-child(odd) {
+    background: #49b;
+}
