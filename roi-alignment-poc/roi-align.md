@@ -1,1 +1,1 @@
-![roi align](https://github.com/gyorgy-raffay-epam/gy-playground/blob/master/roi-align.png?raw=true)
+![roi align](./roi-align.png?raw=true)
